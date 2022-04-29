@@ -108,7 +108,7 @@ if __name__ == '__main__':
                     row += ['L%s_wrd_B_P' % (l + 1), 'L%s_wrd_B_R' % (l + 1), 'L%s_wrd_B_F' % (l + 1)]
                     row += ['L%s_wrd_W_P' % (l + 1), 'L%s_wrd_W_R' % (l + 1), 'L%s_wrd_W_F' % (l + 1)]
                 f.write(','.join(row) + '\n')
-        
+
         # Update
         m.fit(X_train, batch_size=B, epochs=1)
 
